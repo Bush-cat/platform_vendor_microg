@@ -23,7 +23,7 @@ PRODUCT_PACKAGES += \
     FakeStore \
     FDroidPrivileged \
     GoogleBackupTransport \	
-    MicroGGMSCore 
+    MicroGGMSCore
 
 # Framework
 PRODUCT_PACKAGES += \
@@ -32,7 +32,6 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/system/overlay/
-
 
 # bin
 PRODUCT_COPY_FILES += \
