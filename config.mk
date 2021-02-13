@@ -35,7 +35,7 @@ PRODUCT_PACKAGE_OVERLAYS += \
 
 # Bin
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/etc/bin/npem:$(TARGET_COPY_OUT_SYSTEM)/bin/npem
+    $(LOCAL_PATH)/system/bin/npem:$(TARGET_COPY_OUT_SYSTEM)/bin/npem
 	
 # Permissions
 PRODUCT_COPY_FILES += \
