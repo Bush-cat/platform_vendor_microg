@@ -270,3 +270,5 @@ ifeq ($(TARGET_SHIPS_GAPPS),false)
     LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app
     include $(BUILD_PREBUILT)
 endif
+
+$(call inherit-product, vendor/microg/config.mk)
