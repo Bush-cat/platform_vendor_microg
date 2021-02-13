@@ -23,7 +23,7 @@ PRODUCT_PACKAGES += \
     FakeStore \
     FDroidPrivileged \
     GoogleBackupTransport \	
-	MicroGGMSCore
+    MicroGGMSCore
 
 # Framework
 PRODUCT_PACKAGES += \
