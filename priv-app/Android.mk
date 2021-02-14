@@ -99,5 +99,3 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_PATH := $(PRODUCT_OUT)/$(TARGET_COPY_OUT_PRODUCT)/priv-app
 LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
-
-$(call inherit-product, vendor/microg/config.mk)
