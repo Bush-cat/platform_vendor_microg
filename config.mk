@@ -35,10 +35,10 @@ PRODUCT_COPY_FILES += \
 
 # permissions
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/etc/permissions/com.google.android.backuptransport.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.android.backuptransport.xml \
-    $(LOCAL_PATH)/system/etc/permissions/com.google.android.media.effects.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.android.media.effects.xml \
-    $(LOCAL_PATH)/system/etc/permissions/com.google.widevine.software.drm.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.widevine.software.drm.xml \
-    $(LOCAL_PATH)/system/etc/permissions/gsync.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/gsync.xml
+    $(LOCAL_PATH)/system/etc/permissions/com.android.vending.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.android.vending.xml \
+    $(LOCAL_PATH)/system/etc/permissions/com.aurora.services.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.aurora.services.xml \
+    $(LOCAL_PATH)/system/etc/permissions/com.google.android.gms.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.android.gms.xml \
+    $(LOCAL_PATH)/system/etc/permissions/com.google.android.maps.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.android.maps.xml
 
 # default-permissions
 PRODUCT_COPY_FILES += \
