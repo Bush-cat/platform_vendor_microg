@@ -31,7 +31,7 @@ PRODUCT_PACKAGES += \
 
 # bin
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/etc/bin/npem:$(TARGET_COPY_OUT_SYSTEM)/bin/npem
+    $(LOCAL_PATH)/system/bin/npem:$(TARGET_COPY_OUT_SYSTEM)/bin/npem
 
 # permissions
 PRODUCT_COPY_FILES += \
