@@ -3,7 +3,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE := AuroraServices
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := priv-AuroraServices/AuroraServices.apk
+LOCAL_SRC_FILES := AuroraServices/AuroraServices.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
@@ -15,7 +15,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := DroidGuard
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := priv-DroidGuard/DroidGuard.apk
+LOCAL_SRC_FILES := DroidGuard/DroidGuard.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
@@ -27,7 +27,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := FakeStore
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := priv-FakeStore/FakeStore.apk
+LOCAL_SRC_FILES := FakeStore/FakeStore.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
@@ -39,7 +39,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := FDroidPrivileged
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := priv-FDroidPrivileged/FDroidPrivileged.apk
+LOCAL_SRC_FILES := FDroidPrivileged/FDroidPrivileged.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
@@ -51,7 +51,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := GsfProxy
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := priv-GsfProxy/GsfProxy.apk
+LOCAL_SRC_FILES := GsfProxy/GsfProxy.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
@@ -63,7 +63,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := GoogleBackupTransport
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := priv-GoogleBackupTransport/GoogleBackupTransport.apk
+LOCAL_SRC_FILES := GoogleBackupTransport/GoogleBackupTransport.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
@@ -75,7 +75,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := GmsCore
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := priv-MicroGGMSCore/MicroGGMSCore.apk
+LOCAL_SRC_FILES := MicroGGMSCore/MicroGGMSCore.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
