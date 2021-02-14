@@ -34,4 +34,9 @@
         <permission name="android.permission.UPDATE_DEVICE_STATS" />
         <permission name="android.permission.WRITE_SECURE_SETTINGS" />
     </privapp-permissions>
+    <privapp-permissions package="com.google.android.gsf">
+        <permission name="android.permission.FAKE_PACKAGE_SIGNATURE"/>
+    </privapp-permissions>
+        <privapp-permissions package="org.microg.gms.droidguard">
+    </privapp-permissions>
 </permissions>
