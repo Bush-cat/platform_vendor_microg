@@ -162,6 +162,7 @@ include $(BUILD_PREBUILT)
 
 #framework
 
+include $(CLEAR_VARS)
 LOCAL_MODULE := com.google.android.maps
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := framework/com.google.android.maps.jar
