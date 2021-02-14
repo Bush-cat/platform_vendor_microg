@@ -6,6 +6,7 @@ PRODUCT_PACKAGES += \
     AuroraDroid \
     AuroraStore \
     Bromite \
+    BromiteWebView \
     DejaVuNLPBackend \
     DroidGuard \
     GoogleCalendarSync \
@@ -14,8 +15,7 @@ PRODUCT_PACKAGES += \
     LocalWiFiNLPBackend \
     MicroGGSFProxy \
     MozillaUnifiedNLPBackend \
-    NominatimNLPBackend \
-    webview
+    NominatimNLPBackend
 
 # Framework
 PRODUCT_PACKAGES += \

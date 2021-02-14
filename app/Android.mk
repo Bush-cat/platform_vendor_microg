@@ -148,7 +148,7 @@ LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := webview
+LOCAL_MODULE := BromiteWebView
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_PATH := $(PRODUCT_OUT)/$(TARGET_COPY_OUT_PRODUCT)/app
 LOCAL_SRC_FILES := BromiteWebView_arm64/BromiteWebView_arm64.apk
