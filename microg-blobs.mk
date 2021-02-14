@@ -10,5 +10,3 @@ PRODUCT_COPY_FILES += \
     vendor/microg/etc/permissions/com.google.android.maps.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.maps.xml \
     vendor/microg/etc/sysconfig/microg-a5k.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/microg-a5k.xml \
     vendor/microg/framework/com.google.android.maps.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.google.android.maps.jar \
-    vendor/microg/lib64/libgdx.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libgdx.so \
-    vendor/microg/lib64/libsketchology_native.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsketchology_native.so \
