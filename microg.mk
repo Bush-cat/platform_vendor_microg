@@ -13,7 +13,6 @@ PRODUCT_PACKAGES += \
     GoogleContactsSync \
     LocalGSMNLPBackend \
     LocalWiFiNLPBackend \
-    GsfProxy \
     MozillaNlpBackend \
     NominatimNlpBackend
 
@@ -31,6 +30,7 @@ PRODUCT_PACKAGES += \
     FakeStore \
     FDroidPrivilegedExtension \
     GoogleBackupTransport \
-    GmsCore
+    GmsCore \
+    GsfProxy \
 
 $(call inherit-product, vendor/microg/microg-blobs.mk)
