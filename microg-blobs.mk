@@ -10,4 +10,4 @@ PRODUCT_COPY_FILES += \
     vendor/microg/etc/permissions/com.google.android.maps.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.maps.xml \
     vendor/microg/etc/sysconfig/microg.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/microg.xml \
     vendor/microg/etc/sysconfig/microg-feature.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/microg-feature.xml \
-    vendor/microg/framework/com.google.android.maps.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.google.android.maps.jar \
+    vendor/microg/framework/com.google.android.maps.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.google.android.maps.jar
