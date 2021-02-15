@@ -13,9 +13,9 @@ PRODUCT_PACKAGES += \
     GoogleContactsSync \
     LocalGSMNLPBackend \
     LocalWiFiNLPBackend \
-    MicroGGSFProxy \
-    MozillaUnifiedNLPBackend \
-    NominatimNLPBackend
+    GsfProxy \
+    MozillaNlpBackend \
+    NominatimNlpBackend
 
 # Framework
 PRODUCT_PACKAGES += \
@@ -29,7 +29,7 @@ PRODUCT_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     AuroraServices \
     FakeStore \
-    FDroidPrivileged \
+    FDroidPrivilegedExtension \
     GoogleBackupTransport \
     GmsCore
 

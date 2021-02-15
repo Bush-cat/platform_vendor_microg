@@ -8,5 +8,25 @@
         <permission name="android.permission.FAKE_PACKAGE_SIGNATURE" />
         <permission name="android.permission.INSTALL_LOCATION_PROVIDER" />
         <permission name="android.permission.UPDATE_APP_OPS_STATS" />
+        <permission name="org.microg.nlp.SERVICE_ADMIN" />
+        <permission name="org.microg.gms.STATUS_BROADCAST" />
+    </privapp-permissions>
+    <privapp-permissions package="com.google.android.gsf">
+        <permission name="android.permission.FAKE_PACKAGE_SIGNATURE"/>
+    </privapp-permissions>
+    <privapp-permissions package="org.microg.gms.droidguard">
+    </privapp-permissions>
+    <privapp-permissions package="org.fdroid.fdroid.privileged">
+        <permission name="android.permission.DELETE_PACKAGES"/>
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+    </privapp-permissions>
+    <privapp-permissions package="org.microg.nlp">
+        <permission name="android.permission.INSTALL_LOCATION_PROVIDER"/>
+        <permission name="android.permission.ACCESS_COARSE_UPDATES"/>
+        <permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+        <permission name="org.microg.permission.FORCE_COARSE_LOCATION"/>
+        <permission name="com.android.settings.INJECT_SETTINGS"/>
+        <permission name="android.permission.ACCESS_FINE_LOCATION"/>
     </privapp-permissions>
 </permissions>

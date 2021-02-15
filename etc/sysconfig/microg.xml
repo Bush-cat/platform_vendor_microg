@@ -28,6 +28,12 @@
     <allow-in-power-save-except-idle package="com.aurora.store" />
     <allow-in-power-save-except-idle package="com.aurora.services" />
 
+    <!-- Certain broadcasts must still go to legacy implicit receivers -->
+    <allow-implicit-broadcast action="com.google.android.checkin.CHECKIN_COMPLETE" />
+    <allow-implicit-broadcast action="com.google.gservices.intent.action.GSERVICES_CHANGED" />
+    <allow-implicit-broadcast action="com.google.gservices.intent.action.GSERVICES_OVERRIDE" />
+    <allow-implicit-broadcast action="com.google.android.c2dm.intent.RECEIVE" />
+
     <!-- Bare minimum microG components. -->
     <app-link package="com.google.android.gms" />
     <app-link package="com.android.vending" />
@@ -47,6 +53,7 @@
 
     <!-- Apps that have ability to run as system user. -->
     <system-user-whitelisted-app package="com.google.android.gms" />
+    <system-user-whitelisted-app package="com.google.android.gms.policy_auth" />
     <system-user-whitelisted-app package="com.google.android.gsf" />
     <system-user-whitelisted-app package="org.microg.gms.droidguard" />
     <system-user-whitelisted-app package="org.fdroid.fdroid.privileged" />
@@ -56,10 +63,23 @@
     <!-- Third party apps allowed to access the entire private API  -->
     <hidden-api-whitelisted-app package="com.google.android.gms" />
 
+    <!-- Whitelist of what components are permitted as backup data transports.  The
+         'service' attribute here is a flattened ComponentName string. -->
+    <backup-transport-whitelisted-service
+        service="android/com.android.internal.backup.LocalTransportService" />
+    <backup-transport-whitelisted-service
+        service="com.google.android.gms/.backup.BackupTransportService" />
+    <backup-transport-whitelisted-service
+        service="com.google.android.gms/.backup.component.D2dTransportService" />
+
     <!-- Specify the explicit set of other applications whose app data
          directories are accessible by other applications. -->
     <app-data-isolation-whitelisted-app package="com.google.android.gms" />
+    <app-data-isolation-whitelisted-app package="com.android.vending" />
 
     <!-- Whitelist of packages that eligible for rollback -->
     <rollback-whitelisted-app package="com.android.vending" />
+    <rollback-whitelisted-app package="com.google.android.gms" />
+	
+    <whitelisted-staged-installer package="com.android.vending" />
 </config>
