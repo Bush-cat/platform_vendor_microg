@@ -14,11 +14,12 @@ PRODUCT_PACKAGES += \
     LocalGSMNLPBackend \
     LocalWiFiNLPBackend \
     MozillaNlpBackend \
+    NewPipe \
     NominatimNlpBackend
 
 # Framework
 PRODUCT_PACKAGES += \
-    com.google.android.maps
+    com.google.android.maps.jar
 
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += \
@@ -31,6 +32,10 @@ PRODUCT_PACKAGES += \
     FDroidPrivilegedExtension \
     GoogleBackupTransport \
     GmsCore \
-    GsfProxy \
+    GsfProxy
+
+# F-Droid-Repository
+PRODUCT_PACKAGES += \
+    additional_repos.xml
 
 $(call inherit-product, vendor/microg/microg-blobs.mk)
